@@ -1,0 +1,6 @@
+{
+  "python.pythonPath": "c:\\Users\\gcardone\\.virtualenvs\\app-17edpVNz\\Scripts\\python.exe",
+  "python.linting.pylintArgs": ["--extension-pkg-whitelist=selenium"],
+  "python.globalModuleInstallation": true,
+  "python.formatting.provider": "black"
+}
