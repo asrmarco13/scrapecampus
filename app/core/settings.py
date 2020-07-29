@@ -3,8 +3,8 @@ class Settings:
     Default properties
     """
 
-    USERNAME = "g.cardone"
-    PASSWORD = "Giulio%102"
+    USERNAME = "<username>"
+    PASSWORD = "<password>"
     PRIVATE_AREA = "https://www.uniecampus.it/area-riservata"
     SIGNIN_BUTTON_NAME = "_eventId_proceed"
     GO_TO_PAGE_ONE = "https://www.uniecampus.it/area-riservata/lezioni-e-laboratori"
