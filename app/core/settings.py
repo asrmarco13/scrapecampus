@@ -1,10 +1,16 @@
+from dotenv import load_dotenv
+
+load_dotenv()
+import os
+
+
 class Settings:
     """
     Default properties
     """
 
-    USERNAME = "<username>"
-    PASSWORD = "<password>"
+    USERNAME = os.getenv("USERNAMEEC")
+    PASSWORD = os.getenv("PASSWORD")
     PRIVATE_AREA = "https://www.uniecampus.it/area-riservata"
     SIGNIN_BUTTON_NAME = "_eventId_proceed"
     GO_TO_PAGE_ONE = "https://www.uniecampus.it/area-riservata/lezioni-e-laboratori"

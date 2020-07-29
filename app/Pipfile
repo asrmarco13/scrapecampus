@@ -8,6 +8,7 @@ black = "==19.10b0"
 pylint = "*"
 debugpy = "==1.0.0b12"
 rope = "*"
+python-dotenv = "*"
 
 [packages]
 selenium = "*"
